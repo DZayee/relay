@@ -1,5 +1,5 @@
 # relay
-Establishing a relay between the Prysm network (a popular Ethereum 2.0 client) and Nomic (a blockchain framework for building decentralized applications) involves several steps. Below, I’ll outline a general approach to achieve this. Note that specific configurations may vary depending on your use case and the current architecture of both platforms.
+Establishing a relay between the Prysm network (a popular Ethereum 2.0 client) and Nomic (a blockchain framework for building decentralized applications) involves several steps. Below, I’ll outline a general approach to achieve this. Note that specific configurations may vary depending on your use case and the current architecture of both platforms. </br>
 **Step 1: Set Up Your Environment**
 Prerequisites:
 
