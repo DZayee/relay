@@ -14,7 +14,7 @@ cd prysm
 Follow the instructions in the Prysm documentation to set up and run the Prysm beacon node and validator.
 Set Up Nomic:
 
-Refer to the Nomic documentation to set up your Nomic environment. Ensure you have the necessary tools and dependencies installed.
+Refer to the Nomic documentation to set up your Nomic environment. Ensure you have the necessary tools and dependencies installed.</br>
 **Step 2: Establish a Relay**
 Understand the Relay Protocol:
 
@@ -54,7 +54,7 @@ prysmSocket.on('error', (error) => {
 
 nomicSocket.on('error', (error) => {
     console.error(`Nomic WebSocket error: ${error.message}`);
-});
+});</br>
 **Step 3: Testing the Relay**
 Run the Relay Service:
 
@@ -64,7 +64,7 @@ Test Communication:
 Send messages from one network and verify that they are correctly received on the other. You may want to implement logging to monitor the flow of messages.
 Debugging:
 
-If you encounter any issues, check the WebSocket connections, inspect the logs, and ensure that both Prysm and Nomic are running correctly.
+If you encounter any issues, check the WebSocket connections, inspect the logs, and ensure that both Prysm and Nomic are running correctly.</br>
 **Step 4: Security and Optimization**
 Authentication:
 
